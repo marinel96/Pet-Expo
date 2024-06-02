@@ -1,9 +1,5 @@
-/* App.css */
-.App {
-  text-align: center;
-}
-
-.App .navbar {
+/* NavBar.css */
+.navbar {
   background-color: #4CAF50;
   padding: 1em;
   display: flex;
@@ -11,7 +7,7 @@
   align-items: center;
 }
 
-.App .navbar a {
+.navbar a {
   color: white;
   font-weight: bold;
 }

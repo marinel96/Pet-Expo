@@ -1,0 +1,7 @@
+/* AnimalGallery.css */
+.animal-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}

@@ -1,0 +1,13 @@
+/* HomePage.css */
+.home-page {
+  padding: 2em;
+}
+
+.home-page h1 {
+  color: #4CAF50;
+}
+
+.home-page p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}

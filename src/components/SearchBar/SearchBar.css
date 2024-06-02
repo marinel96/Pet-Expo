@@ -1,0 +1,27 @@
+/* SearchBar.css */
+.search-bar-container {
+  position: relative;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.search-results {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
