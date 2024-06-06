@@ -1,0 +1,32 @@
+.about-us {
+    padding: 2em;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .about-us ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-us ul a {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+  

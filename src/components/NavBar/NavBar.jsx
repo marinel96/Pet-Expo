@@ -9,9 +9,10 @@ const NavBar = () => {
       <Link to="/birds">Birds</Link>
       <Link to="/cats">Cats</Link>
       <Link to="/dogs">Dogs</Link>
+      <a href="#about-us">About Us</a>
+      <a href="#contact-us">Contact Us</a>
     </nav>
   );
 };
 
 export default NavBar;
-

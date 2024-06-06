@@ -1,6 +1,7 @@
-/* HomePage.css */
 .home-page {
+  background-image:url('https://static.wixstatic.com/media/b56c13_9a5ed524f8f148c7905674033f9aeb7b~mv2.jpeg/v1/fill/w_1290,h_686,al_c,q_85,enc_auto/b56c13_9a5ed524f8f148c7905674033f9aeb7b~mv2.jpeg');
   padding: 2em;
+  
 }
 
 .home-page h1 {

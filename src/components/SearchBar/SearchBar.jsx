@@ -6,21 +6,25 @@ import AnimalCard from '../AnimalCard/AnimalCard';
 import AnimalPopup from '../PopUp/Popup';
 import './SearchBar.css';
 
+
 const SearchBar = () => {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [selectedAnimal, setSelectedAnimal] = useState(null);
 
   useEffect(() => {
+    const fetchAnimals = async () => {
+      const [dogs, cats, birds] = await Promise.all([fetchDogs(), fetchCats(), fetchBirds()]);
+      return [...dogs, ...cats, ...birds];
+    };
+
     const searchAnimals = async () => {
       if (query.length === 0) {
         setResults([]);
         return;
       }
 
-      const [dogs, cats, birds] = await Promise.all([fetchDogs(), fetchCats(), fetchBirds()]);
-
-      const allAnimals = [...dogs, ...cats, ...birds];
+      const allAnimals = await fetchAnimals();
       const filteredAnimals = allAnimals.filter(animal => animal.name.toLowerCase().includes(query.toLowerCase()));
       setResults(filteredAnimals);
     };
